@@ -1,0 +1,7 @@
+gotify_url = "https://localhost/message"
+gotify_token = "gotify-token"
+gotify_priority = 3
+
+packages = [
+    "chatterino2-git",
+]

@@ -1,0 +1,14 @@
+[package]
+name = "aur-watcher"
+description = "program to check & store last seen version of a package in AUR"
+license = "MIT"
+repository = "https://github.com/pajlada/aur-watcher"
+keywords = ["aur"]
+categories = ["development-tools"]
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = { version = "0.12.15", features = ["blocking", "json"] }
+serde = { version = "1.0.219", features = ["derive"] }
+toml = "0.8.21"
